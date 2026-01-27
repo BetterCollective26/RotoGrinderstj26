@@ -3,7 +3,7 @@
   "widget_file_name": "rg2726test.html",
   "brand": "RotoGrinders",
   "created_by": "gauthambc",
-  "created_at_utc": "2026-01-27 20:42:47 UTC",
+  "created_at_utc": "2026-01-27 23:21:46 UTC",
   "table_name_words": "RG2726Test",
   "widget_title": "Table 1",
   "widget_subtitle": "Subheading",
@@ -26,20 +26,36 @@
     "show_pager": true,
     "show_embed": true,
     "show_page_numbers": true,
-    "bar_columns": [],
-    "bar_max_overrides": {},
-    "bar_fixed_w": 200,
-    "heat_columns": [],
-    "heat_overrides": {},
-    "heat_strength": 0.55,
+    "bar_columns": [
+      "Fan Stress Index (Out of 100)"
+    ],
+    "bar_max_overrides": {
+      "Fan Stress Index (Out of 100)": 100.0
+    },
+    "bar_fixed_w": 150,
+    "heat_columns": [
+      "Fan Stress Index (Out of 100)"
+    ],
+    "heat_overrides": {
+      "Fan Stress Index (Out of 100)": {}
+    },
+    "heat_strength": 0.3,
     "heatmap_style": "Branded heatmap",
     "header_style": "Keep original"
   },
   "col_format_rules": {},
   "csv": "Rank,Fan Base,Fan Stress Index (Out of 100),Online Negativity Rate (%),Avg Penalties per Game,Avg Win Margin (Pts),Avg Turnovers per Game,Close Games (\u22645 Min),Games Missed to Injury,Overtime Games\n1,Dallas Cowboys,62.75,8.60%,2.59,10.0,1.24,2,203,2\n2,Indianapolis Colts,61.14,10.30%,1.82,16.13,1.35,5,236,2\n3,New York Giants,60.99,6.30%,2.71,15.25,1.0,4,243,2\n4,Arizona Cardinals,57.68,6.80%,1.47,7.33,1.24,5,315,1\n5,Atlanta Falcons,57.61,4.80%,1.88,7.5,1.06,4,193,2\n6,Chicago Bears,56.41,5.00%,1.53,8.0,0.65,6,160,1\n7,Cincinnati Bengals,53.41,11.50%,2.18,12.0,1.41,6,122,0\n8,Washington Commanders,53.04,13.20%,2.41,12.8,1.35,1,167,2\n9,New York Jets,52.55,16.60%,1.24,3.67,1.35,3,203,0\n10,San Francisco 49ers,52.26,4.20%,1.35,9.92,1.29,3,220,1\n11,Jacksonville Jaguars,50.51,9.20%,2.12,14.23,1.06,5,98,2\n12,Green Bay Packers,49.3,2.90%,1.76,9.33,0.76,3,153,2\n13,Seattle Seahawks,49.26,4.20%,2.12,14.29,1.65,3,155,1\n14,Pittsburgh Steelers,48.91,4.60%,1.88,8.0,0.88,3,215,0\n15,Cleveland Browns,46.73,11.80%,2.0,10.2,1.47,1,201,0\n16,Las Vegas Raiders,45.9,5.90%,1.65,6.33,1.35,3,68,1\n17,Carolina Panthers,45.01,5.40%,1.59,6.88,1.35,2,141,1\n18,Tampa Bay Buccaneers,44.02,5.70%,2.53,5.63,0.94,4,160,0\n19,Los Angeles Chargers,42.15,4.70%,1.71,10.09,1.24,1,187,1\n20,Miami Dolphins,41.63,5.90%,0.76,11.57,1.41,2,268,1\n21,Denver Broncos,40.7,3.70%,1.59,7.71,1.0,2,179,1\n22,Minnesota Vikings,40.52,6.40%,2.0,12.89,1.76,1,147,0\n23,New Orleans Saints,37.22,4.90%,2.06,10.0,1.41,0,231,0\n24,Houston Texans,36.23,2.90%,2.35,11.08,0.71,3,232,0\n25,Philadelphia Eagles,36.06,4.70%,1.53,8.82,0.88,0,157,1\n26,Baltimore Ravens,33.82,5.10%,1.59,16.13,1.35,3,155,0\n27,Kansas City Chiefs,33.01,5.00%,1.53,16.33,0.88,2,206,1\n28,Buffalo Bills,32.09,2.30%,1.88,12.58,1.12,2,170,0\n29,Tennessee Titans,32.0,11.10%,1.18,6.67,1.12,1,161,0\n30,Detroit Lions,31.92,5.80%,1.0,15.22,0.88,0,289,1\n31,Los Angeles Rams,30.19,2.30%,2.0,15.75,0.88,1,58,2\n32,New England Patriots,28.21,2.10%,1.53,13.43,0.94,1,175,0\n",
   "hidden_cols": [],
-  "bar_columns": [],
-  "bar_max_overrides": {},
-  "heat_columns": [],
-  "heat_overrides": {}
+  "bar_columns": [
+    "Fan Stress Index (Out of 100)"
+  ],
+  "bar_max_overrides": {
+    "Fan Stress Index (Out of 100)": 100.0
+  },
+  "heat_columns": [
+    "Fan Stress Index (Out of 100)"
+  ],
+  "heat_overrides": {
+    "Fan Stress Index (Out of 100)": {}
+  }
 }
